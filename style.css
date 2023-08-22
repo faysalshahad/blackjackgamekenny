@@ -1,0 +1,54 @@
+body{
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.gridBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dealer-cards img{
+    height: 11rem;
+    width: 8rem;
+    margin: 2px;
+}
+
+#your-cards img{
+    height: 11rem;
+    width: 8rem;
+    margin: 2px;
+}
+
+
+#hitButton{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    background-color: coral;
+    border: 3px solid;
+    margin: 1rem;
+    font-weight: bolder;
+}
+
+#stayButton{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    background-color: brown;
+    border: 3px solid;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+#replayButton{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    background-color:chartreuse;
+    border: 3px solid;
+    margin-left: 4rem;
+    font-weight: bolder;
+}

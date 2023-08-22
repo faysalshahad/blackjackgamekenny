@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BalckJack Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gridBox">
+    <div class="gridFirst">
+        <h2 class="dealerText">House Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards">
+            <img src="./cards/BACK.png" alt="Back side of the Card" id="hidden">
+        </div>
+        <h2 class="yourText">Your Card: <span id="your-sum"></span></h2>
+        <div id="your-cards"></div>
+        <button id="hitButton">Hit & Play</button>
+        <button id="stayButton">Stand & Stop</button>
+        <button id="replayButton">Play Again</button>
+            <!-- <h5 id="resultsText">This Round's Result: </h5>
+            <h4 class="yourtextWin">Your Total Win: <span id="youWin"></span></h4> -->
+        <h2 class="dealerTextWin"><span id="resultsText">This Round's Result:</span></h2> 
+            <!-- &emsp;Your Total Win: <span id="youWin"></span> 
+            &emsp;Dealer Total Win: <span id="dealerWin"></span>    -->
+    </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+</html>
